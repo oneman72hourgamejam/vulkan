@@ -13,15 +13,93 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="glfw">
+      <UniqueIdentifier>{65acb66e-6337-4753-97cc-bb1286a11958}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\external\glfw\src\egl_context.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\glfw\src\internal.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\glfw\src\mappings.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\glfw\src\nsgl_context.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\glfw\src\osmesa_context.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\glfw\src\wgl_context.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\glfw\src\win32_joystick.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\glfw\src\win32_platform.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\glfw\src\xkb_unicode.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="vulkan.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\context.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\egl_context.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\init.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\input.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\monitor.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\osmesa_context.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\vulkan.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\wgl_context.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\win32_init.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\win32_joystick.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\win32_monitor.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\win32_thread.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\win32_time.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\win32_window.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\window.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\glfw\src\xkb_unicode.c">
+      <Filter>glfw</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
